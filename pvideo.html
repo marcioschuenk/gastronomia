@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<HTML>
+    <HEAD>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-compatilble" content="IE=edge">
+            <title>As comidas mais caras do mundo</title>
+            <link type="text/css" rel="stylesheet" href="./css/style.css">
+    </HEAD>
+    <BODY>
+    <ul>
+        <li>
+            <a class="active" href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="./pvideo.html">Videos</a>
+        </li>
+        <li>
+            <a href="./contatos.html">Contatos</a>
+        </li>
+        <li>
+            <a href="./mais.html">Mais</a>
+        </li>
+    </ul>
+    <p>Utilize buttom para iniciar e parar o video<br>
+    qualquer outro texto que seja relevante aparecer aqui</p>
+
+    <video autoplay loop id="vlobo">
+    <source src="./video/comidasmaiscaras.mp4" type="video/mp4">
+    seu nanegador nao suporta htm5 video vai compra outro seu pobre.
+    </video>
+
+    <div class="cover">
+    <button id="bntvideo" onclick="funcao()">Pause</button>
+    </div>
+
+    <script>
+     var video = document.getElementById("vlobo");
+    var bnt =   document.getElementById("bntvideo");
+    function funcao(){       
+        if(video.paused){
+             video.play();
+                bnt.innerHTML="Pause";
+        }else {
+            video.pause();
+             bnt.innerHTML="Play";
+        }
+    }
+    </script>
+    </BODY>
+</HTML>

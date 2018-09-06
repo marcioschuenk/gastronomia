@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*criado por marcio schuenck*/
+
+h1{
+    color: BLACK;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    clear:both
+}
+
+figcaption{
+    color: purple;
+    font-size:300%;
+    text-align: center;
+    text-shadow: 2px 2px 8px #9c0cd1;
+
+
+}
+
+#bntvideo{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #9c0cd1;
+    cursor: pointer;
+
+}
+
+#bntvideo:hover{
+    background: purple;
+    color: black;
+}
+
+h1{
+    font-size: 250%;
+    text-align: center;
+    text-shadow: 2px 2px 8px #9c0cd1;
+}
+
+.cover{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.0);
+
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    font-size: 150%;
+    text-align: center;
+    text-shadow: 2px 2px 8px #9c0cd1;
+}
+/*barra de tarefas*/
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            border: 15px Black;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+            
+        }
+
+        li:last-child {
+            border-right: none;
+            
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 9px 9px;
+            text-decoration: none;
+            width: 356.5px;
+            font-size: 25px;
+            text-shadow: 2px 2px 8px #9c0cd1;
+            color: black;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+
+        }
+
+        .active {
+            background-color: purple;
+            color: white;
+            text-shadow: 2px 2px 10px black;
+            font-size: 25px;
+        }
+
+        body{
+            background-color: lightgray;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .contatos{
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 2px 2px 8px #9c0cd1;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            text-shadow: 2px 2px 8px #9c0cd1;
+            color: black;
+        }
